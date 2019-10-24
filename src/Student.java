@@ -1,4 +1,4 @@
-public class Student extends People implements Walk{
+public class Student extends People implements Walkable{
 	private Nim nim;
 	public Student(String name, int age,Nim nim) {
 		super();
