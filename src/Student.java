@@ -1,4 +1,4 @@
-public class Student extends People implements Eatable{
+public class Student extends People implements Walk{
 	private Nim nim;
 	public Student(String name, int age,Nim nim) {
 		super();
@@ -13,7 +13,7 @@ public class Student extends People implements Eatable{
 		this.nim = nim;
 	}
 	@Override
-	public void eat() {
-		System.out.println("student eat");
+	public void walk() {
+		System.out.println("student walk");
 	}
 }
